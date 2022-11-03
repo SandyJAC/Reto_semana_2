@@ -1,0 +1,106 @@
+body{
+    
+    font-family: sans-serif;
+    margin: 0;    
+    }
+
+header{
+      
+    background-color: coral;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    }
+.main{
+    background-image: url(../imagenes/baby.jpg);
+    overflow: hidden;
+    height: 80vh;
+
+}
+   
+.nav-link{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+/* TITULO COLOR */
+.navbar-brand{
+    display: flex;
+    align-items: center;
+    color: rgb(195, 43, 226);
+       
+}
+
+/*LOGO*/
+.rounded{
+    height: 100px;
+    margin-left: 10px;
+
+}
+
+
+/*QUIENES SOMOS*/
+.contents {
+    font-family: 'Amatic SC', cursive;
+    margin-top: 1px;
+    width: 70%;
+    float:left;
+    font-size: 20px;
+    color: aqua;
+    font-weight: bold;
+    text-align: center;
+    }
+
+/*texto quienes somos*/
+
+.text {
+    font-family: 'Amatic SC', cursive;
+    margin-top: 1px;
+    width: 70%;
+    float:left;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+}
+
+.text1 {
+    font-family: 'Amatic SC', cursive;
+    margin-top: 1px;
+    width: 100%;
+    float:left;
+    font-size: 15px;
+    color: blueviolet;
+    text-align: center;
+}
+
+/*Imagen "Fondo"*/
+
+.column
+{
+    margin-right: 150x;
+    margin-block-start: 50px;
+    margin-block-end: 1px;
+
+}
+/*pie de pagina*/
+div.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-image:url(../imagenes/pie.png);
+      
+}
+
+p.rights {
+    position: relative;
+    text-align: right;
+    top: 0px;
+    color:black;
+    margin-top: 0;
+    margin-right: 50px;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+   
+}
+
